@@ -98,6 +98,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseSensitivity: 16
   playerBody: {fileID: 5113142307353987965}
+  humanBody: {fileID: 5113142309081108925}
 --- !u!95 &1856179884883343992
 Animator:
   serializedVersion: 3
@@ -364,7 +365,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!1 &5113142309313215281
 GameObject:

@@ -21,7 +21,7 @@ public class Tether : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (humanCharacter != null && ghostCharacter != null)
         {
@@ -37,6 +37,10 @@ public class Tether : MonoBehaviour
             {
                 Debug.Log("Input undetected");
                 StopSwinging();
+            }
+            if (joint)
+            {
+                joint.connectedAnchor = ghostBody.position;
             }
         }
     }

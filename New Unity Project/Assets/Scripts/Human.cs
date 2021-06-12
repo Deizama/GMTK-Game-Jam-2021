@@ -20,7 +20,7 @@ public class Human : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
         //Walk
         float x = Input.GetAxis("Horizontal") * Speed * 0.1f;
@@ -44,7 +44,6 @@ public class Human : MonoBehaviour
         {
             rb.AddForce(Vector2.up * JumpForce);
         }
-
 
     }
 }

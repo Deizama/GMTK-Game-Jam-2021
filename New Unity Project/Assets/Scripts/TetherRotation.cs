@@ -13,10 +13,13 @@ public class TetherRotation : MonoBehaviour
 
     private SpriteRenderer tetherSprite;
 
+    private LineRenderer tetherEffect;
+
     // Start is called before the first frame update
     void Start()
     {
         tetherSprite = lineTether.GetComponent<SpriteRenderer>();
+        tetherEffect = this.gameObject.GetComponent<LineRenderer>();
     }
 
     // Update is called once per frame
@@ -39,7 +42,7 @@ public class TetherRotation : MonoBehaviour
 
         if (distance < 1)
         {
-            if (distance < 0.1)
+            if (distance < 0.2)
             {
                 humanTether.GetComponent<SpriteRenderer>().enabled = false;
                 ghostTether.GetComponent<SpriteRenderer>().enabled = false;
@@ -58,5 +61,6 @@ public class TetherRotation : MonoBehaviour
             tetherSprite.enabled = true;
             tetherSprite.size = new Vector2(distance, 1);
         }
+        //tetherEffect.startWidth = distance;
     }
 }
