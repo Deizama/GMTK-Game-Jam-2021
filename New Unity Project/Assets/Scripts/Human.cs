@@ -20,6 +20,14 @@ public class Human : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded)
+        {
+            rb.AddForce(Vector2.up * JumpForce);
+        }
+    }
+
     void FixedUpdate()
     {
         //Walk
@@ -28,8 +36,8 @@ public class Human : MonoBehaviour
         humanBody.Translate(Vector3.right * x);
 
         //Jump
-        RaycastHit2D hitL = Physics2D.Raycast(FootL.transform.position, -Vector2.up, 0.1f);
-        RaycastHit2D hitR = Physics2D.Raycast(FootR.transform.position, -Vector2.up, 0.1f);
+        RaycastHit2D hitL = Physics2D.Raycast(FootL.transform.position, -Vector2.up, 0.2f);
+        RaycastHit2D hitR = Physics2D.Raycast(FootR.transform.position, -Vector2.up, 0.2f);
 
         if (hitL || hitR)
         {
@@ -38,11 +46,6 @@ public class Human : MonoBehaviour
         else
         {
             IsGrounded = false;
-        }
-
-        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded)
-        {
-            rb.AddForce(Vector2.up * JumpForce);
         }
 
     }

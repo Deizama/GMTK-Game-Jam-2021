@@ -20,6 +20,24 @@ public class Tether : MonoBehaviour
         ghostBody = ghostCharacter.transform;
     }
 
+    private void Update()
+    {
+        //"Solidify" Link
+        if (Input.GetMouseButtonDown(0))
+        {
+            StartSwinging();
+        }
+        if (Input.GetMouseButtonUp(0))
+        {
+            Debug.Log("Input undetected");
+            StopSwinging();
+        }
+        if (joint)
+        {
+            joint.connectedAnchor = ghostBody.position;
+        }
+    }
+
     // Update is called once per frame
     void FixedUpdate()
     {
@@ -27,21 +45,6 @@ public class Tether : MonoBehaviour
         {
             tether.SetPosition(0, humanCharacter.transform.position);
             tether.SetPosition(1, ghostCharacter.transform.position);
-
-            //"Solidify" Link
-            if (Input.GetMouseButtonDown(0))
-            {
-                StartSwinging();
-            }
-            if (Input.GetMouseButtonUp(0))
-            {
-                Debug.Log("Input undetected");
-                StopSwinging();
-            }
-            if (joint)
-            {
-                joint.connectedAnchor = ghostBody.position;
-            }
         }
     }
     void StartSwinging()

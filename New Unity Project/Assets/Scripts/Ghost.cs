@@ -40,7 +40,14 @@ public class Ghost : MonoBehaviour
         if (this.gameObject.transform.position.y - humanBody.transform.position.y > 4) { if (Input.GetAxis("Mouse Y") > 0) { stopY = 0f; } }
         else if (humanBody.transform.position.y - this.gameObject.transform.position.y > 4) { if (Input.GetAxis("Mouse Y") < 0) { stopY = 0f; } }
        
+        if (distance > 7)
+        {
+            if (this.gameObject.transform.position.x - humanBody.transform.position.x > 5) { mouseX = -(distance/ 50); }
+            else if (humanBody.transform.position.x - this.gameObject.transform.position.x > 5) { mouseX = (distance / 50); }
 
+            if (this.gameObject.transform.position.y - humanBody.transform.position.y > 4) { mouseY = -(distance / 50); }
+            else if (humanBody.transform.position.y - this.gameObject.transform.position.y > 4)  { mouseY = (distance / 50); }
+        }
         mouseX = mouseX * stopX;
         mouseY = mouseY * stopY;
 
