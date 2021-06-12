@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637590769712620167
-    m_Hash: 2087326699
+      ticks: 637590853202696035
+    m_Hash: 3391091815
   m_LockFileStatus:
     m_FilePath: C:/Users/Maxime/Documents/GitHub/GMTK-Game-Jam-2021/New Unity Project/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637590769713807005
-    m_Hash: 2358923293
+      ticks: 637590853202706006
+    m_Hash: 3847001244
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
