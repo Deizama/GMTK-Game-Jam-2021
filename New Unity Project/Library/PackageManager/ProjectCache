@@ -1,34 +1,135 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: D:/Projets/Gamejams/GMTK Game jam 2021/GMTK-Game-Jam-2021/New Unity
-      Project/Packages/manifest.json
+    m_FilePath: C:/Users/Maxime/Documents/GitHub/GMTK-Game-Jam-2021/New Unity Project/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637590430325032518
-    m_Hash: 1970097928
+      ticks: 637590769712620167
+    m_Hash: 2087326699
   m_LockFileStatus:
-    m_FilePath: D:/Projets/Gamejams/GMTK Game jam 2021/GMTK-Game-Jam-2021/New Unity
-      Project/Packages/packages-lock.json
+    m_FilePath: C:/Users/Maxime/Documents/GitHub/GMTK-Game-Jam-2021/New Unity Project/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637590431262891020
-    m_Hash: 4271654105
+      ticks: 637590769713807005
+    m_Hash: 2358923293
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
+    - packageId: com.unity.2d.sprite@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.2d.sprite@1.0.0
+      assetPath: Packages/com.unity.2d.sprite
+      name: com.unity.2d.sprite
+      displayName: 2D Sprite
+      author:
+        name: 
+        email: 
+        url: 
+      category: 2D
+      type: 
+      description: Use Unity Sprite Editor Window to create and edit Sprite asset
+        properties like pivot, borders and Physics shape
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - 2d
+      - sprite
+      - sprite editor window
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.2d.tilemap@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.2d.tilemap@1.0.0
+      assetPath: Packages/com.unity.2d.tilemap
+      name: com.unity.2d.tilemap
+      displayName: 2D Tilemap Editor
+      author:
+        name: 
+        email: 
+        url: 
+      category: 2D
+      type: 
+      description: 2D Tilemap Editor is a package that contains editor functionalities
+        for editing Tilemaps.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - 2d
+      - Tilemap
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
     - packageId: com.unity.collab-proxy@1.5.7
       testable: 0
       isDirectDependency: 1
       version: 1.5.7
       source: 1
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.collab-proxy@1.5.7
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.collab-proxy@1.5.7
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Version Control
@@ -63,6 +164,7 @@ m_PackageAssets:
         - 1.3.7
         - 1.3.8
         - 1.3.9
+        - 1.4.9
         - 1.5.7
         - 2.0.0-preview.6
         - 2.0.0-preview.8
@@ -116,7 +218,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637551413290000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -129,8 +231,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.ide.rider@2.0.7
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -170,6 +272,8 @@ m_PackageAssets:
         - 3.0.3
         - 3.0.4
         - 3.0.5
+        - 3.0.6
+        - 3.0.7
         compatible:
         - 1.0.2
         - 1.0.6
@@ -194,6 +298,8 @@ m_PackageAssets:
         - 3.0.3
         - 3.0.4
         - 3.0.5
+        - 3.0.6
+        - 3.0.7
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -233,8 +339,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.8
       source: 1
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.ide.visualstudio@2.0.8
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.ide.visualstudio@2.0.8
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -264,6 +370,7 @@ m_PackageAssets:
         - 2.0.5
         - 2.0.7
         - 2.0.8
+        - 2.0.9
         compatible:
         - 1.0.2
         - 1.0.3
@@ -278,7 +385,8 @@ m_PackageAssets:
         - 2.0.5
         - 2.0.7
         - 2.0.8
-        verified: 2.0.8
+        - 2.0.9
+        verified: 2.0.9
       dependencies:
       - name: com.unity.test-framework
         version: 1.1.9
@@ -304,7 +412,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637562620210000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -317,8 +425,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.3
       source: 1
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.ide.vscode@1.2.3
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.ide.vscode@1.2.3
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -387,8 +495,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 10.5.0
       source: 1
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.render-pipelines.universal@10.5.0
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.render-pipelines.universal@10.5.0
       assetPath: Packages/com.unity.render-pipelines.universal
       name: com.unity.render-pipelines.universal
       displayName: Universal RP
@@ -485,21 +593,21 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637550685770000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: https://github.com/Unity-Technologies/Graphics.git
-        revision: 434e39e917b0d6d6a91fef17eb6f4479ad1fa385
+        url: git+https://github.com/Unity-Technologies/Graphics.git
+        revision: 7ff8fd444c179fd9bb380d61f4865be6935b47dd
         path: 
     - packageId: com.unity.test-framework@1.1.24
       testable: 0
       isDirectDependency: 1
       version: 1.1.24
       source: 1
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.test-framework@1.1.24
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.test-framework@1.1.24
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -542,9 +650,11 @@ m_PackageAssets:
         - 1.1.20
         - 1.1.22
         - 1.1.24
+        - 1.1.26
         compatible:
         - 1.1.24
-        verified: 1.1.24
+        - 1.1.26
+        verified: 1.1.26
       dependencies:
       - name: com.unity.ext.nunit
         version: 1.0.6
@@ -587,8 +697,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.6
       source: 1
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.textmeshpro@3.0.6
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.textmeshpro@3.0.6
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -660,6 +770,7 @@ m_PackageAssets:
         - 1.5.3
         - 1.5.4
         - 1.5.5
+        - 1.5.6
         - 2.0.0
         - 2.0.1-preview.1
         - 2.0.1
@@ -680,6 +791,7 @@ m_PackageAssets:
         - 2.1.3
         - 2.1.4
         - 2.1.5
+        - 2.1.6
         - 3.0.0-preview.1
         - 3.0.0-preview.3
         - 3.0.0-preview.4
@@ -728,7 +840,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637547111200000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -741,8 +853,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.8
       source: 1
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.timeline@1.4.8
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.timeline@1.4.8
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -815,8 +927,11 @@ m_PackageAssets:
         - 1.5.1-pre.3
         - 1.5.2
         - 1.5.4
+        - 1.5.5
         - 1.6.0-pre.1
         - 1.6.0-pre.3
+        - 1.6.0-pre.4
+        - 1.6.0-pre.5
         compatible:
         - 1.4.8
         - 1.5.0-pre.2
@@ -830,8 +945,11 @@ m_PackageAssets:
         - 1.5.1-pre.3
         - 1.5.2
         - 1.5.4
+        - 1.5.5
         - 1.6.0-pre.1
         - 1.6.0-pre.3
+        - 1.6.0-pre.4
+        - 1.6.0-pre.5
         verified: 1.4.8
       dependencies:
       - name: com.unity.modules.director
@@ -869,7 +987,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637557616100000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -882,8 +1000,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.ugui@1.0.0
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.ugui@1.0.0
       assetPath: Packages/com.unity.ugui
       name: com.unity.ugui
       displayName: Unity UI
@@ -946,8 +1064,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.modules.ai@1.0.0
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.modules.ai@1.0.0
       assetPath: Packages/com.unity.modules.ai
       name: com.unity.modules.ai
       displayName: AI
@@ -995,8 +1113,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.modules.androidjni@1.0.0
       assetPath: Packages/com.unity.modules.androidjni
       name: com.unity.modules.androidjni
       displayName: Android JNI
@@ -1044,8 +1162,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.modules.animation@1.0.0
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.modules.animation@1.0.0
       assetPath: Packages/com.unity.modules.animation
       name: com.unity.modules.animation
       displayName: Animation
@@ -1093,8 +1211,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
       assetPath: Packages/com.unity.modules.assetbundle
       name: com.unity.modules.assetbundle
       displayName: Asset Bundle
@@ -1142,8 +1260,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.modules.audio@1.0.0
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.modules.audio@1.0.0
       assetPath: Packages/com.unity.modules.audio
       name: com.unity.modules.audio
       displayName: Audio
@@ -1191,8 +1309,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.modules.cloth@1.0.0
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.modules.cloth@1.0.0
       assetPath: Packages/com.unity.modules.cloth
       name: com.unity.modules.cloth
       displayName: Cloth
@@ -1244,8 +1362,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.modules.director@1.0.0
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.modules.director@1.0.0
       assetPath: Packages/com.unity.modules.director
       name: com.unity.modules.director
       displayName: Director
@@ -1301,8 +1419,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
       assetPath: Packages/com.unity.modules.imageconversion
       name: com.unity.modules.imageconversion
       displayName: Image Conversion
@@ -1351,8 +1469,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.modules.imgui@1.0.0
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.modules.imgui@1.0.0
       assetPath: Packages/com.unity.modules.imgui
       name: com.unity.modules.imgui
       displayName: IMGUI
@@ -1400,8 +1518,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
       assetPath: Packages/com.unity.modules.jsonserialize
       name: com.unity.modules.jsonserialize
       displayName: JSONSerialize
@@ -1449,8 +1567,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
       assetPath: Packages/com.unity.modules.particlesystem
       name: com.unity.modules.particlesystem
       displayName: Particle System
@@ -1498,8 +1616,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.modules.physics@1.0.0
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.modules.physics@1.0.0
       assetPath: Packages/com.unity.modules.physics
       name: com.unity.modules.physics
       displayName: Physics
@@ -1547,8 +1665,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.modules.physics2d@1.0.0
       assetPath: Packages/com.unity.modules.physics2d
       name: com.unity.modules.physics2d
       displayName: Physics 2D
@@ -1596,8 +1714,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.modules.screencapture@1.0.0
       assetPath: Packages/com.unity.modules.screencapture
       name: com.unity.modules.screencapture
       displayName: Screen Capture
@@ -1649,8 +1767,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.modules.terrain@1.0.0
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.modules.terrain@1.0.0
       assetPath: Packages/com.unity.modules.terrain
       name: com.unity.modules.terrain
       displayName: Terrain
@@ -1698,8 +1816,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
       assetPath: Packages/com.unity.modules.terrainphysics
       name: com.unity.modules.terrainphysics
       displayName: Terrain Physics
@@ -1755,8 +1873,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.modules.tilemap@1.0.0
       assetPath: Packages/com.unity.modules.tilemap
       name: com.unity.modules.tilemap
       displayName: Tilemap
@@ -1808,8 +1926,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.modules.ui@1.0.0
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.modules.ui@1.0.0
       assetPath: Packages/com.unity.modules.ui
       name: com.unity.modules.ui
       displayName: UI
@@ -1857,8 +1975,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.modules.uielements@1.0.0
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.modules.uielements@1.0.0
       assetPath: Packages/com.unity.modules.uielements
       name: com.unity.modules.uielements
       displayName: UIElements
@@ -1922,8 +2040,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.modules.umbra@1.0.0
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.modules.umbra@1.0.0
       assetPath: Packages/com.unity.modules.umbra
       name: com.unity.modules.umbra
       displayName: Umbra
@@ -1971,8 +2089,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
       assetPath: Packages/com.unity.modules.unityanalytics
       name: com.unity.modules.unityanalytics
       displayName: Unity Analytics
@@ -2028,8 +2146,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequest
       name: com.unity.modules.unitywebrequest
       displayName: Unity Web Request
@@ -2077,8 +2195,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
       name: com.unity.modules.unitywebrequestassetbundle
       displayName: Unity Web Request Asset Bundle
@@ -2134,8 +2252,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestaudio
       name: com.unity.modules.unitywebrequestaudio
       displayName: Unity Web Request Audio
@@ -2191,8 +2309,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequesttexture
       name: com.unity.modules.unitywebrequesttexture
       displayName: Unity Web Request Texture
@@ -2248,8 +2366,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestwww
       name: com.unity.modules.unitywebrequestwww
       displayName: Unity Web Request WWW
@@ -2321,8 +2439,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.modules.vehicles@1.0.0
       assetPath: Packages/com.unity.modules.vehicles
       name: com.unity.modules.vehicles
       displayName: Vehicles
@@ -2374,8 +2492,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.modules.video@1.0.0
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.modules.video@1.0.0
       assetPath: Packages/com.unity.modules.video
       name: com.unity.modules.video
       displayName: Video
@@ -2435,8 +2553,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.modules.vr@1.0.0
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.modules.vr@1.0.0
       assetPath: Packages/com.unity.modules.vr
       name: com.unity.modules.vr
       displayName: VR
@@ -2498,8 +2616,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.modules.wind@1.0.0
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.modules.wind@1.0.0
       assetPath: Packages/com.unity.modules.wind
       name: com.unity.modules.wind
       displayName: Wind
@@ -2547,8 +2665,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.modules.xr@1.0.0
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.modules.xr@1.0.0
       assetPath: Packages/com.unity.modules.xr
       name: com.unity.modules.xr
       displayName: XR
@@ -2608,8 +2726,8 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.modules.subsystems@1.0.0
       assetPath: Packages/com.unity.modules.subsystems
       name: com.unity.modules.subsystems
       displayName: Subsystems
@@ -2661,8 +2779,8 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
       assetPath: Packages/com.unity.modules.uielementsnative
       name: com.unity.modules.uielementsnative
       displayName: UIElements Native
@@ -2721,8 +2839,8 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.ext.nunit@1.0.6
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -2783,8 +2901,8 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.1.0
       source: 1
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.mathematics@1.1.0
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.mathematics@1.1.0
       assetPath: Packages/com.unity.mathematics
       name: com.unity.mathematics
       displayName: Mathematics
@@ -2859,8 +2977,8 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 10.5.0
       source: 1
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.render-pipelines.core@10.5.0
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.render-pipelines.core@10.5.0
       assetPath: Packages/com.unity.render-pipelines.core
       name: com.unity.render-pipelines.core
       displayName: Core RP Library
@@ -2949,6 +3067,8 @@ m_PackageAssets:
         - 7.4.3
         - 7.5.1
         - 7.5.2
+        - 7.5.3
+        - 7.6.0
         - 8.0.1
         - 8.1.0
         - 8.2.0
@@ -2963,6 +3083,9 @@ m_PackageAssets:
         - 10.2.0
         - 10.2.1
         - 10.2.2
+        - 10.3.1
+        - 10.3.2
+        - 10.4.0
         - 10.5.0
         compatible:
         - 10.5.0
@@ -2990,21 +3113,21 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637550675510000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: https://github.com/Unity-Technologies/Graphics.git
-        revision: 434e39e917b0d6d6a91fef17eb6f4479ad1fa385
+        url: git+https://github.com/Unity-Technologies/Graphics.git
+        revision: 7ff8fd444c179fd9bb380d61f4865be6935b47dd
         path: 
     - packageId: com.unity.shadergraph@10.5.0
       testable: 0
       isDirectDependency: 0
       version: 10.5.0
       source: 1
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.shadergraph@10.5.0
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.shadergraph@10.5.0
       assetPath: Packages/com.unity.shadergraph
       name: com.unity.shadergraph
       displayName: Shader Graph
@@ -3142,21 +3265,21 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637550676160000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: https://github.com/Unity-Technologies/Graphics.git
-        revision: 434e39e917b0d6d6a91fef17eb6f4479ad1fa385
+        url: git+https://github.com/Unity-Technologies/Graphics.git
+        revision: 7ff8fd444c179fd9bb380d61f4865be6935b47dd
         path: 
     - packageId: com.unity.nuget.newtonsoft-json@2.0.0
       testable: 0
       isDirectDependency: 0
       version: 2.0.0
       source: 1
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
       assetPath: Packages/com.unity.nuget.newtonsoft-json
       name: com.unity.nuget.newtonsoft-json
       displayName: Newtonsoft Json
@@ -3165,7 +3288,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: library
+      type: 
       description: 'Newtonsoft Json for use in Unity projects and Unity packages.
         Currently synced to version 12.0.2.
 
@@ -3180,9 +3303,27 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.0.0-preview.2
+        - 1.0.0-preview.3
+        - 1.0.0-preview.4
+        - 1.0.1-preview.1
+        - 1.1.2
+        - 2.0.0-preview
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
         - 2.0.0
+        - 2.0.1-preview.1
         compatible:
+        - 1.0.0-preview.2
+        - 1.0.0-preview.3
+        - 1.0.0-preview.4
+        - 1.0.1-preview.1
+        - 1.1.2
+        - 2.0.0-preview
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
         - 2.0.0
+        - 2.0.1-preview.1
         verified: 2.0.0
       dependencies: []
       resolvedDependencies: []
@@ -3199,7 +3340,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637237898320000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3212,8 +3353,8 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 4.3.2
       source: 1
-      resolvedPath: D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New
-        Unity Project\Library\PackageCache\com.unity.searcher@4.3.2
+      resolvedPath: C:\Users\Maxime\Documents\GitHub\GMTK-Game-Jam-2021\New Unity
+        Project\Library\PackageCache\com.unity.searcher@4.3.2
       assetPath: Packages/com.unity.searcher
       name: com.unity.searcher
       displayName: Searcher
@@ -3276,7 +3417,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637509898070000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3286,6 +3427,5 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: D:/Projets/Gamejams/GMTK Game jam 2021/GMTK-Game-Jam-2021/New Unity
-  Project/Packages
+m_ProjectPath: C:/Users/Maxime/Documents/GitHub/GMTK-Game-Jam-2021/New Unity Project/Packages
 m_EditorVersion: 2020.3.11f1 (99c7afb366b3)
