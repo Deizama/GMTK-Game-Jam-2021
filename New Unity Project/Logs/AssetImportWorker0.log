@@ -1,0 +1,1523 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19041.1052; Version 2004; 64bit' Language: 'fr' Physical Memory: 16330 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Unity\2020.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Projets/Gamejams/GMTK Game jam 2021/GMTK-Game-Jam-2021/New Unity Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50541
+Successfully changed project path to: D:/Projets/Gamejams/GMTK Game jam 2021/GMTK-Game-Jam-2021/New Unity Project
+D:/Projets/Gamejams/GMTK Game jam 2021/GMTK-Game-Jam-2021/New Unity Project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 64.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path D:/Unity/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Projets/Gamejams/GMTK Game jam 2021/GMTK-Game-Jam-2021/New Unity Project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   27.21.14.5671
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'D:/Unity/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/2020.3.11f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: D:/Unity/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002015 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 59.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.351 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004429 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025D4697C3F0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D40E06A60 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D41036EE0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D417B9010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D462CAC80 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D464FA250 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4152D010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45965020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45992A30 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4176CA50 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D463EDF40 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D46642020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45BA6430 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4541D020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D462CAC80 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4132E7F0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45AD5010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45C8D010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D415E5010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45166030 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D40E07C60 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D40E07860 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D41213010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D410CEAC0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D40DED430 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45AD5010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 54.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.306 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2717 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.8 MB.
+System memory in use after: 121.1 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3156.
+Total: 2.402000 ms (FindLiveObjects: 0.258400 ms CreateObjectMapping: 0.128100 ms MarkObjects: 1.984200 ms  DeleteObjects: 0.030000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Test.mat
+  artifactKey: Guid(401a91803bd3c554c904b084e8dffbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test.mat using Guid(401a91803bd3c554c904b084e8dffbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461518e5d19e56f1116144887d4bb663') in 0.196378 seconds
+  Import took 0.200667 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 3.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.5 MB.
+System memory in use after: 65.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3196.
+Total: 3.629200 ms (FindLiveObjects: 0.275900 ms CreateObjectMapping: 0.132200 ms MarkObjects: 3.194700 ms  DeleteObjects: 0.025300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 240.744800 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(2bfb547f48ce4fb44b0391cffcd81c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(2bfb547f48ce4fb44b0391cffcd81c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ce92d53691cbe10fd0418b18e73810') in 0.018141 seconds
+  Import took 0.023907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.219071 seconds.
+  path: Assets/Scripts/Camera.cs
+  artifactKey: Guid(fdc0095d71722ff45bb55fd188c7b627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Camera.cs using Guid(fdc0095d71722ff45bb55fd188c7b627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e596ad7b13e84bc09a74ffdfc2aa71cc') in 0.024585 seconds
+  Import took 0.030068 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011196 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025D40E28BD0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4624A260 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D41036EE0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48260080 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D465DD020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D40DE13A0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48260080 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D455E2010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D410CEAC0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D41480030 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D463ECD00 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D415B8020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45456430 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D40F6DFD0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D462CAC80 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025ED83192B0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D44FF1710 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D467F1010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4938D040 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D462D0C80 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4624A060 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4624C860 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4513F020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48260080 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4136B870 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45AD5010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.728 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2657 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.5 MB.
+System memory in use after: 118.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3200.
+Total: 2.557100 ms (FindLiveObjects: 0.310100 ms CreateObjectMapping: 0.287400 ms MarkObjects: 1.905700 ms  DeleteObjects: 0.052300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004522 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025D462EAAC0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D40DEAE00 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D41586010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4BD46010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D40DBE020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48CDE020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4BD46010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48D1E020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D49A6DD40 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D410F7010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4C5BEBB0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45AD5010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D40DD6010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45965020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D462CAC80 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025ED831AB70 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4BCE8020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D467F1010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4938D040 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4BCE8020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D40DEA800 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D40DEA400 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48990040 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48CDE020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D46A78020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45AD5010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.303 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2657 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.6 MB.
+System memory in use after: 118.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3203.
+Total: 2.726400 ms (FindLiveObjects: 0.347900 ms CreateObjectMapping: 0.179800 ms MarkObjects: 2.149700 ms  DeleteObjects: 0.048100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 222.288168 seconds.
+  path: Assets/Scripts/Camera.cs
+  artifactKey: Guid(fdc0095d71722ff45bb55fd188c7b627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Camera.cs using Guid(fdc0095d71722ff45bb55fd188c7b627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1876afd964f07b106075d7679b5fc191') in 0.006737 seconds
+  Import took 0.012795 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006169 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025D41353060 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D40DEA800 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D41627020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4BE6A010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48CDE020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48CDE020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4BE6A010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45B6D020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D49A6DD40 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48CE6A30 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4D0354D0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45AD5010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4BE72020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D41213010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4BE72020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48B801F0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45569040 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D467F1010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4938D040 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45569040 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D40DEA800 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D40DEA800 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D49015030 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D49B3D020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45008030 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45AD5010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.779 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2657 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.6 MB.
+System memory in use after: 118.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3206.
+Total: 3.357100 ms (FindLiveObjects: 0.293200 ms CreateObjectMapping: 0.155600 ms MarkObjects: 2.884200 ms  DeleteObjects: 0.022600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004478 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025D462EAAC0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D464F8B80 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D49B5F010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4C6FC080 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4134D3D0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4554B020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4BE6A010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45B6D020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D49A6DD40 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D455C8F20 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4DCA6CB0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45AD5010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4134D3D0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D49025040 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D46C73030 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48B7BBD0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45569040 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D467F1010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4938D040 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45569040 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D464F8980 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D464FA180 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4D6E6060 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4554B020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48775040 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45AD5010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.384 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2657 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.6 MB.
+System memory in use after: 118.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3209.
+Total: 3.437000 ms (FindLiveObjects: 0.327000 ms CreateObjectMapping: 0.170100 ms MarkObjects: 2.912000 ms  DeleteObjects: 0.026200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003724 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025D462EAAC0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D464F9D80 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D49B5F010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4ABE9A00 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4D938280 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D41564030 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4ABE9A00 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48D1E020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D44F73010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4132E7A0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4E6E8C80 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45569040 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4D938280 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4513F020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4BD2C1B0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48B7AF70 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D41627020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D467F1010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4938D040 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D41627020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D464F9D80 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D464F9D80 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4E460030 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D41564030 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4D439460 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45AD5010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.309 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2657 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.6 MB.
+System memory in use after: 118.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3212.
+Total: 3.525200 ms (FindLiveObjects: 0.321600 ms CreateObjectMapping: 0.233000 ms MarkObjects: 2.943100 ms  DeleteObjects: 0.025900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004061 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025D4121CE40 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D485A8C80 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D49B5F010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D491A3010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D49635020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4BE6A010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4F373030 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48D1E020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D44F73010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4132E7A0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4DC9ECF0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45569040 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D49635020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4513F020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4134D3D0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D463A0D00 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D486EE010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D467F1010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4938D040 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D486EE010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D485A8C80 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D485A9C80 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4F784010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4BE6A010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48775040 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45AD5010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.429 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2657 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.6 MB.
+System memory in use after: 118.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3215.
+Total: 3.198300 ms (FindLiveObjects: 0.745200 ms CreateObjectMapping: 0.189600 ms MarkObjects: 2.230600 ms  DeleteObjects: 0.031300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.030900 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025D4F37CE60 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D485A8480 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D49B5F010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D46E0E020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D498D6030 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D504B4030 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48260080 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48D1E020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D44F73010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4D178CD0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4DCA2CD0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45569040 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D498D6030 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4F8AB030 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D498D6030 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D49A3CBB0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D496A8020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D467F1010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4938D040 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D496A8020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D485A8880 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D485A8480 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D50363020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D504B4030 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48EE6900 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45AD5010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.238 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2657 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.6 MB.
+System memory in use after: 118.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3218.
+Total: 2.688600 ms (FindLiveObjects: 0.302500 ms CreateObjectMapping: 0.155900 ms MarkObjects: 2.208000 ms  DeleteObjects: 0.020900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006327 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025D462BC570 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D49998090 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4F794020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D455F2020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4EB0C030 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4D440320 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D458DE030 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48D1E020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D46C07020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D46BA6010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4E6B52B0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D46F34020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4D8F2020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D49FA78D0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45585180 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4A15F8C0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4B1832A0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4A4F0080 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4A7C6010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4B1832A0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D49997290 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D49998890 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4E756020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48403730 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D40B31440 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4F135060 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.382 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2657 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.6 MB.
+System memory in use after: 118.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3221.
+Total: 3.184300 ms (FindLiveObjects: 0.297400 ms CreateObjectMapping: 0.257000 ms MarkObjects: 2.605600 ms  DeleteObjects: 0.022500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004432 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025D462BC570 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D49997490 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4F794020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D455F2020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4EB0C030 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4EB11F90 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D458DE030 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48D1E020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D46C07020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D46BA6010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4E6EE330 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D46F34020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4D8F2020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D49FA78D0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45585180 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D49049790 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4B1832A0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4A058FD0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4A7C6010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4B1832A0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D49998490 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D49998290 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4E756020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48403730 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D40B31440 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4F135060 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.262 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2657 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.7 MB.
+System memory in use after: 118.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3224.
+Total: 2.937400 ms (FindLiveObjects: 0.384700 ms CreateObjectMapping: 0.161300 ms MarkObjects: 2.364800 ms  DeleteObjects: 0.025200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003723 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025D4A707C30 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D46E1B7C0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4F794020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4EE90020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4EB0C030 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4EB11F90 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D458DE030 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48D1E020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D46C07020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D46BA6010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4E981D70 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45AD5010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4D8F2020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D49FA78D0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45585180 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4904BAA0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4A025330 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4A058FD0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4938D040 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4A025330 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D46E1C9C0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D46E1BFC0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4E756020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48403730 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D40B31440 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45AD5010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.246 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2657 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.7 MB.
+System memory in use after: 118.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3227.
+Total: 2.754700 ms (FindLiveObjects: 0.281400 ms CreateObjectMapping: 0.143500 ms MarkObjects: 2.305100 ms  DeleteObjects: 0.023400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007730 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025D4A707C30 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D46E1BFC0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4F794020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4EE90020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4EB0C030 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4EB11F90 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D458DE030 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48D1E020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D46C07020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48831040 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4DAF4510 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45AD5010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4D8F2020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4A5D9050 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45585180 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4A009D90 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4503E030 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4A058FD0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4938D040 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4503E030 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D46E1C3C0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D46E1B5C0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4C4A9560 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48403730 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D40B31440 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45AD5010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.611 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2657 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.7 MB.
+System memory in use after: 118.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3230.
+Total: 3.580000 ms (FindLiveObjects: 0.295600 ms CreateObjectMapping: 0.152600 ms MarkObjects: 3.109800 ms  DeleteObjects: 0.020600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003742 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025D4A707C30 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D485A9A80 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4F794020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D49B6F030 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4EB0C030 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4A6FD250 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D458DE030 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48D1E020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D46C07020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4F781010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4D274A40 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45AD5010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4D8F2020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4A5D9050 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D462CAC80 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D49DD6A40 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4A025330 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4A058FD0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4938D040 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4A025330 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D485A9080 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D485A9080 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4EC04320 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48403730 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D40B31440 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45AD5010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.231 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2657 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.7 MB.
+System memory in use after: 118.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3233.
+Total: 2.515000 ms (FindLiveObjects: 0.309600 ms CreateObjectMapping: 0.146500 ms MarkObjects: 2.038200 ms  DeleteObjects: 0.019700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004198 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025D46721020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D485A9880 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48482020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D49B6F030 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D464FD080 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D49AE1010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D458DE030 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48D1E020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D46C07020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D46AB5E80 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48E3F010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45AD5010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D47140030 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4FEFE030 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D462CAC80 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D40D04520 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4A025330 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4A058FD0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4938D040 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4FEAC050 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D485A9880 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D485A9880 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48AEC020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4A158ED0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D40B31440 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45AD5010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.280 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2657 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.7 MB.
+System memory in use after: 118.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3236.
+Total: 3.471200 ms (FindLiveObjects: 0.356200 ms CreateObjectMapping: 0.131800 ms MarkObjects: 2.957100 ms  DeleteObjects: 0.024700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004954 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025D4B98E500 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D47031A90 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48482020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D49B6F030 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D464FD080 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4D440320 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4951E010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48D1E020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D46C07020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48D4D040 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4D585D10 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4FEAC050 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4B147060 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48AFC030 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D462CAC80 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4A1E0FC0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4EDD6020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4A058FD0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4938D040 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4EDD6020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D47030490 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D47030A90 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4EC04320 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D49EB3C20 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D40B31440 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45AD5010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.210 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2657 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.7 MB.
+System memory in use after: 118.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3239.
+Total: 2.636600 ms (FindLiveObjects: 0.286600 ms CreateObjectMapping: 0.141700 ms MarkObjects: 2.186300 ms  DeleteObjects: 0.020900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003778 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025D46721020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D47030290 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48482020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D49B6F030 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D464FD080 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D49EB3C20 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48708010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48D1E020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D46C07020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48D4D040 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48E354F0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4DE96010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4AE18030 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4A5D9050 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D462CAC80 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4B1E5F40 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4E30D010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4A058FD0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4938D040 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4E30D010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D47030290 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D47030290 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D467F1010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D49EB3C20 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D40B31440 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4DE96010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.240 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2657 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.7 MB.
+System memory in use after: 118.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3242.
+Total: 3.530200 ms (FindLiveObjects: 0.292200 ms CreateObjectMapping: 0.147500 ms MarkObjects: 2.699600 ms  DeleteObjects: 0.388900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004700 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025D4A714CC0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4A632920 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D482800A0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D455F2020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D464FD080 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45B91040 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4951E010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48D1E020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D46C07020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4D3F8040 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48E354F0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45AD5010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4D806050 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4A5D9050 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D462CAC80 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4B98DEF0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4E714040 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4A058FD0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4938D040 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4E714040 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4A633520 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4A633B20 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D467F1010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45B91040 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D40B31440 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45AD5010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.315 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2657 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.7 MB.
+System memory in use after: 118.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3245.
+Total: 2.679200 ms (FindLiveObjects: 0.290600 ms CreateObjectMapping: 0.152900 ms MarkObjects: 2.210200 ms  DeleteObjects: 0.024300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004295 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025D46721020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4A632320 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D5239D020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4CE38060 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D464FD080 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D49EB3C20 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48708010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48D1E020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D46C07020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4E9F9030 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48E39DF0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45AD5010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4D806050 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4A5D9050 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D462CAC80 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4B021890 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D5188D950 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4BE28020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4938D040 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D5188D950 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4A632320 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4A632320 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4A058FD0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D49EB3C20 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D40B31440 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D45AD5010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.260 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2657 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.7 MB.
+System memory in use after: 118.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3248.
+Total: 3.022100 ms (FindLiveObjects: 0.350100 ms CreateObjectMapping: 0.166000 ms MarkObjects: 2.469600 ms  DeleteObjects: 0.035200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013845 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025D4F37D060 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D46836670 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D50C6F020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D5240A170 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D464FD080 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4D89E010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D458DE030 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48D1E020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D46C07020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D46BA6010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D51032730 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D482800A0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4D8F2020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D44E86010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D462CAC80 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D49327390 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4B1832A0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4A4F0080 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4938D040 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4B1832A0 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D46837870 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D46837070 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4FA57020 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D48403730 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D40B31440 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025D4F135010 doesn't match image D:\Projets\Gamejams\GMTK Game jam 2021\GMTK-Game-Jam-2021\New Unity Project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.181 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2657 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.7 MB.
+System memory in use after: 118.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3251.
+Total: 2.720900 ms (FindLiveObjects: 0.321800 ms CreateObjectMapping: 0.164800 ms MarkObjects: 2.186400 ms  DeleteObjects: 0.047200 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -299,7 +299,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   humanBody: {fileID: 798346403}
   ghostBody: {fileID: 1182930531}
-  Speed: 0.5
+  Speed: 0.3
   IsGrounded: 0
   JumpForce: 200
   FootR: {fileID: 1039885871}
@@ -2671,8 +2671,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1815260947}
   - component: {fileID: 1815260946}
-  - component: {fileID: 1815260945}
   - component: {fileID: 1815260948}
+  - component: {fileID: 1815260945}
+  - component: {fileID: 1815260949}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2752,7 +2753,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1815260944}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c88f5cead0c0b2a4eb05b5900433f8d1, type: 3}
   m_Name: 
@@ -2765,3 +2766,18 @@ MonoBehaviour:
   m_CropFrameX: 0
   m_CropFrameY: 0
   m_StretchFill: 0
+--- !u!114 &1815260949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1815260944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdc0095d71722ff45bb55fd188c7b627, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  humanPlayer: {fileID: 798346403}
+  Offset: {x: 0, y: 0, z: -10}
+  SmoothTime: 0.3
