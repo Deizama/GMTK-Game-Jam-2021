@@ -12,7 +12,7 @@ public class Human : MonoBehaviour
     public float JumpForce; 
     public GameObject FootR;
     public GameObject FootL;
-    private SpringJoint joint;
+    private DistanceJoint2D joint;
 
 
     void Start()
@@ -51,24 +51,29 @@ public class Human : MonoBehaviour
             //RaycastHit hit;
 
             //Configuring the joint that links the human and the ghost
-            joint = humanBody.gameObject.AddComponent<SpringJoint>();
+            joint = humanBody.gameObject.AddComponent<DistanceJoint2D>();
             joint.autoConfigureConnectedAnchor = false;
             joint.connectedAnchor = ghostBody.position;
 
             //Configuring the max and min distance of the link during the "swinging"
             float distanceFromGhost = Vector2.Distance(humanBody.position, ghostBody.position);
-                
-            joint.maxDistance = distanceFromGhost * 0f;
-            joint.minDistance = distanceFromGhost * 0f;
+            
+            joint.autoConfigureDistance = false;
+            joint.distance = distanceFromGhost;
+            joint.maxDistanceOnly = true;
+            joint.enableCollision = true;
+            //joint.minDistance = distanceFromGhost * 0f;
 
-            joint.spring = 4.5f;
-            joint.damper = 7f;
-            joint.massScale = 4.5f;
+            //joint.spring = 4.5f;
+            //joint.damper = 7f;
+            //joint.massScale = 4.5f;
+
+            Debug.Log("Raycast Done");
             
         }
     void StopSwinging()
     {
-
+        Destroy(joint);
     }
 
     }
