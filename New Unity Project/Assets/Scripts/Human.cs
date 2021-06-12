@@ -12,7 +12,11 @@ public class Human : MonoBehaviour
     public float JumpForce;
     public GameObject FootR;
     public GameObject FootL;
+
+    public int health = 3;
     private DistanceJoint2D joint;
+
+    public Transform checkpoint;
 
 
     void Start()
@@ -48,5 +52,24 @@ public class Human : MonoBehaviour
             IsGrounded = false;
         }
 
+    }
+
+    public void LosingHealth (int damage)
+    {
+        health = health - damage;
+        if (health <= 0)
+        {
+            health = 3;
+            humanBody.position = checkpoint.position;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        // layer 10 = checkpoint
+        if (collision.gameObject.layer == 10)
+        {
+            checkpoint = collision.transform;
+        }
     }
 }
