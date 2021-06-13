@@ -19,7 +19,8 @@ public class TetherRotation : MonoBehaviour
     void Start()
     {
         tetherSprite = lineTether.GetComponent<SpriteRenderer>();
-        tetherEffect = this.gameObject.GetComponent<LineRenderer>();
+        //tetherEffect = this.gameObject.GetComponent<LineRenderer>();
+        //tetherEffect.transform.position = tetherEffect.GetComponentInParent<Transform>().position;
     }
 
     // Update is called once per frame
@@ -36,6 +37,7 @@ public class TetherRotation : MonoBehaviour
         humanTether.transform.position = humanCharacter.transform.position + humanTether.transform.right;
         // Position of the line
         lineTether.transform.position = (ghostTether.transform.position + humanTether.transform.position) / 2 ;
+        
 
         // Size of the line
         float distance = Vector2.Distance(ghostTether.transform.position, humanTether.transform.position);

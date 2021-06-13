@@ -5,15 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class PlayButton : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void LoadScene(string sceneName)
     {
+        SceneManager.LoadScene(sceneName);
         
-    }
-
-    // Update is called once per frame
-    void OnClick()
-    {
-        SceneManager.LoadScene("Level1", LoadSceneMode.Single);
     }
 }
