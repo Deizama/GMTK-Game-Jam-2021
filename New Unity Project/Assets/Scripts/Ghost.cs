@@ -15,6 +15,7 @@ public class Ghost : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Cursor.lockState = CursorLockMode.Locked;
         //Vector2 mousePoint = Input.mousePosition;
     }
 

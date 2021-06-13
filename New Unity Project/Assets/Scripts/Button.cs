@@ -10,6 +10,7 @@ public class Button : MonoBehaviour
     public int howLongPressed = 100;
 
     private bool isPressed;
+    public GameObject Door;
 
     private Collider2D bc;
     private SpriteRenderer sr;
@@ -26,7 +27,14 @@ public class Button : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (isPressed == true)
+        {
+            Door.SetActive(false);
+        }
+        else if (isPressed == false)
+        {
+            Door.SetActive(true);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -46,7 +54,7 @@ public class Button : MonoBehaviour
         if (howLongPressed != 100)
         {
             Debug.Log("Countdown...");
-            CountdownCoroutine();
+            StartCoroutine(CountdownCoroutine());
         }
     }
 
