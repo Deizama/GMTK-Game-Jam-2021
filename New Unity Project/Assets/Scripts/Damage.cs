@@ -21,11 +21,17 @@ public class Damage : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        collision.gameObject.GetComponent<Human>().LosingHealth(collisionDamage);
+        if (collision.gameObject.layer == 6)
+        {
+            collision.gameObject.GetComponent<Human>().LosingHealth(collisionDamage);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        collision.gameObject.GetComponent<Human>().LosingHealth(triggerDamage);
+        if (collision.gameObject.layer == 6)
+        {
+            collision.gameObject.GetComponent<Human>().LosingHealth(triggerDamage);
+        }
     }
 }
